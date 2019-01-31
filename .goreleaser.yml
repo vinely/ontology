@@ -47,8 +47,10 @@ archive:
     - pkg/setup.sh  
 checksum:
   name_template: 'checksums.txt'
+git:
+  short_hash: true  
 snapshot:
-  name_template: "{{ .Tag }}-next"
+  name_template: "{{ .Tag }}-{{ .ShortCommit }}"
 changelog:
   sort: asc
   filters:
