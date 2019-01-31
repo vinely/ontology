@@ -1,0 +1,18 @@
+{
+    "SeedList": [
+        "172.16.65.108:8010",
+        "172.16.65.107:8010",
+        "172.16.65.99:8010",
+        "172.16.65.29:8010"
+    ],
+    "ConsensusType":"dbft",
+    "DBFT":{
+        "Bookkeepers": [
+            "03fe404986345acaa2fe14552b47cf95dc356ee8d0ce86f4ece9bb86cc4297a899",
+            "02620a5299716b0a30aee44d5685b4343664c6792ea153b3bea5a00284cfe972b8",
+            "02f4eceb3a21369753dc162ada9f9e3dd46f88d79416ecc67d0a6f5959cbe8533d",
+            "037caa4761e82d3532a712993155fcb038dd79bab764683b6796af85c207dd22da"
+        ],
+        "GenBlockTime":6
+    }
+}

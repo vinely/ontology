@@ -33,11 +33,18 @@ builds:
     - amd64 
 archive:
   replacements:
-    darwin: Darwin
     linux: Linux
     windows: Windows
     386: i386
     amd64: x86_64
+  format_overrides:
+    - goos: windows
+      format: zip        
+  files:
+    - pkg/config.ini
+    - pkg/config.json
+    - pkg/ontology.service
+    - pkg/setup.sh  
 checksum:
   name_template: 'checksums.txt'
 snapshot:
